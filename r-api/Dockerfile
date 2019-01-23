@@ -6,5 +6,5 @@ RUN apt-get update && \
         libssl-dev \
         libgit2-dev
 
-RUN R -e 'install.packages(c("devtools", "jsonlite", "dplyr", "tidyr", "readxl", "writexl", "stringr", "here", "rlang", "forcats", "plumber"))'
+RUN R -e 'install.packages(c("devtools", "jsonlite", "dplyr", "tidyr", "readxl", "writexl", "stringr", "here", "rlang", "forcats", "readr", "markdown", "yaml", "knitr", "ggplot2", "plumber"))'
 
